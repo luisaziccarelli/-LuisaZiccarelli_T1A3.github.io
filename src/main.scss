@@ -2,6 +2,8 @@
 @import "home-container"; 
 @import "navbar";
 @import "about-container";
+@import "blog-container";
+@import "contact-form";
 
 * {
     margin: 0;
@@ -13,13 +15,6 @@ body {
     background-color: rgb(252, 216, 223);
 }
 
-#centered-heading {
-    margin-bottom: 20px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;
-    margin-top: 20px;
-}
 
 .bottom-heading {
     margin-top: 20px;

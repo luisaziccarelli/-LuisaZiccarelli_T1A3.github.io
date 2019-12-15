@@ -4,22 +4,45 @@
   justify-content: center;
 }
 
+.centered-heading {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
 nav {
   background-color: #16848b;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
   padding: 5px;
 }
-nav ul {
+
+.main-nav {
   list-style: none;
   display: flex;
   justify-content: flex-end;
 }
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 25px;
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid grey;
 }
 
 .about-container {
@@ -28,7 +51,7 @@ nav ul li {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 20px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
   background-color: grey;
   color: white;
@@ -43,6 +66,49 @@ nav ul li {
   margin-bottom: 0;
 }
 
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  line-height: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 22px;
+}
+
+.blog-post-1 {
+  background-color: blue;
+}
+
+.blog-post-2 {
+  background-color: blueviolet;
+}
+
+.blog-post-3 {
+  background-color: chocolate;
+}
+
+.contact-box {
+  margin-top: 100px;
+  margin-left: 900px;
+  disaply: flex;
+  flex-direction: row-reverse;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -51,14 +117,6 @@ nav ul li {
 
 body {
   background-color: #fcd8df;
-}
-
-#centered-heading {
-  margin-bottom: 20px;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-family: "Ubuntu Mono", monospace;
-  margin-top: 20px;
 }
 
 .bottom-heading {
