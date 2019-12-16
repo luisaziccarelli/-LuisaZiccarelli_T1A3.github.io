@@ -5,10 +5,9 @@
 
 }
 
-.centered-heading {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;
-   
-}
-
+img{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(./img/placeholder.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+ }

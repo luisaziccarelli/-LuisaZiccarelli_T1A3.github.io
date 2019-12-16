@@ -1,15 +1,17 @@
-.contact-box {
-    margin-top: 100px;
-    margin-left: 900px;
-    disaply: flex;
-    flex-direction: row-reverse;
-}
 
-h1 {
-    text-align: center;
+.contact-container {
+    background: grey;
+    margin: 10px auto 50px;
+    padding: 10px;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu Mono', monospace;
-    margin-top: 20px;
+    font-size: 1.5em;
+    max-width: 500px;
+   
+}
+
+label {
+    display: block;
     margin-bottom: 20px;
-    margin-left: 0px;
+ 
 }
