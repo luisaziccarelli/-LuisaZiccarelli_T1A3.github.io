@@ -1,13 +1,30 @@
-#home-container {
+.home-container, img {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+}
+
+.centered-heading {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 80px;
+    margin-left: 200px;
+   
+}
+
+.bottom-heading {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-img{
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(./img/placeholder.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
- }
+

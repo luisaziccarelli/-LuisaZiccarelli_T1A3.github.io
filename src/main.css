@@ -1,14 +1,28 @@
-#home-container {
+.home-container, img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+.home-container img, img img {
+  margin-top: 10px;
+  margin-left: 200px;
+}
 
-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/placeholder.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+.centered-heading {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  color: black;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+
+.bottom-heading {
+  margin-top: 20px;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .logo {
@@ -38,6 +52,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 90%;
+  color: black;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
 }
@@ -120,6 +135,8 @@ label {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
+  margin-top: 100px;
+  margin-left: 200px;
 }
 
 body {
