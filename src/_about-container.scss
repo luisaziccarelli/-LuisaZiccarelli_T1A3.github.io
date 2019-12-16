@@ -2,7 +2,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
+  
+  p {
+    margin-top: auto;
+    font-weight: 100;  
+    line-height: 100%;
+    color: #fff;
+    background: rgb(156, 152, 152);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+
+ .answer {
+    text-indent: 100px;
+    }
+  }
 }
+
 
 .centered-heading {
   text-align: center;
@@ -11,6 +27,5 @@
   margin-top: 80px;
   margin-left: 200px;
   margin-bottom: 20px;
- 
 }
 
