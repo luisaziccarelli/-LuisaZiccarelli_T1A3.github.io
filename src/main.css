@@ -54,40 +54,165 @@
   border-bottom: 2px solid cadetblue;
 }
 
+.container {
+  display: flex;
+  align-content: flex-start;
+}
+
+.centered-heading {
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: yellow;
+}
+
+.intro-heading {
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  line-height: 32px;
+  background-color: #fff;
+  display: -webkit-inline-flex;
+  margin-left: 30px;
+}
+.intro-heading .animation {
+  margin-top: 400px;
+  background: green;
+}
+.intro-heading .animation .panda {
+  top: 40%;
+  left: 43%;
+  height: 120px;
+  width: 80px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 30%;
+}
+.intro-heading .animation .face {
+  position: relative;
+  background-color: white;
+  border: 5px solid black;
+  height: 90px;
+  width: 110px;
+  border-radius: 50%;
+  bottom: 30px;
+  right: 20px;
+}
+.intro-heading .animation .ear-l, .intro-heading .animation .ear-r {
+  position: relative;
+  background-color: black;
+  height: 25px;
+  width: 40px;
+  border-radius: 0px 0px 40px 40px;
+}
+.intro-heading .animation .ear-l {
+  transform: rotate(145deg);
+  bottom: 13px;
+  right: 8px;
+}
+.intro-heading .animation .ear-r {
+  transform: rotate(-145deg);
+  left: 78px;
+  bottom: 38px;
+}
+.intro-heading .animation .eye-l, .intro-heading .animation .eye-r {
+  position: relative;
+  background-color: black;
+  width: 28px;
+  height: 33px;
+  border-radius: 50%;
+}
+.intro-heading .animation .eye-l {
+  bottom: 30px;
+  left: 10px;
+  transform: rotate(25deg);
+}
+.intro-heading .animation .eye-r {
+  bottom: 63px;
+  left: 72px;
+  transform: rotate(-25deg);
+}
+.intro-heading .animation .eyeball {
+  position: relative;
+  top: 8px;
+  left: 7px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: white;
+}
+.intro-heading .animation .nose {
+  position: relative;
+  height: 8px;
+  width: 15px;
+  background-color: black;
+  border-radius: 15px;
+  bottom: 65px;
+  left: 48px;
+}
+.intro-heading .animation .hand-l, .intro-heading .animation .hand-r {
+  position: relative;
+  width: 25px;
+  height: 43px;
+  background-color: black;
+  border-radius: 30px;
+}
+.intro-heading .animation .hand-l {
+  transform: rotate(90deg);
+  bottom: 28px;
+  left: 1px;
+  animation: wave 1.5s infinite;
+  transform-origin: top;
+}
+@keyframes wave {
+  50% {
+    transform: rotate(120deg);
+  }
+}
+.intro-heading .animation .hand-r {
+  transform: rotate(-90deg);
+  bottom: 92px;
+  left: 108px;
+}
+.intro-heading .animation .leg-l, .intro-heading .animation .leg-r {
+  position: relative;
+  background-color: black;
+  width: 17px;
+  height: 25px;
+  border-radius: 0px 0px 30px 30px;
+}
+.intro-heading .animation .leg-l {
+  bottom: 65px;
+  left: 30px;
+}
+.intro-heading .animation .leg-r {
+  bottom: 90px;
+  left: 65px;
+}
+.intro-heading .animation .shadow {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 30px;
+  width: 100px;
+  border-radius: 50%;
+  bottom: 105px;
+  left: 5px;
+}
+
 .about-container {
   display: flex;
   flex-wrap: wrap;
+  display: inline-flex;
+  align-self: flex-end;
 }
 .about-container p {
-  margin-top: auto;
   line-height: 32px;
-  margin-bottom: 30px;
   font-weight: lighter;
   color: #fff;
   background: #9c9898;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
-  float: right;
 }
 .about-container p .answer {
   text-indent: 100px;
-}
-
-.centered-heading {
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-family: "Ubuntu Mono", monospace;
-  margin-top: 80px;
-  margin-left: 200px;
-  margin-bottom: 20px;
-}
-
-.intro-heading {
-  margin-top: 20px;
-  font-family: "Lato", sans-serif;
-  font-family: "Ubuntu Mono", monospace;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .latest-news-area {
