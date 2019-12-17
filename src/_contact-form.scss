@@ -3,25 +3,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+    padding: 50px;
 
 .centered-heading {
-    text-align: center;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu Mono', monospace;
-    margin-top: 80px;
-    margin-left: 200px;
-    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
 }
 
 .contact-form {
+    align-self: flex-end;
     background: grey;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu Mono', monospace;
     line-height: 1;
     text-indent: 10px;
-    margin-top: 150px;
-    justify-content: flex-end;
-    width: 400px;
-    height: 200px;
+    padding: 50px;
+    width: auto;
+    height: auto;
 }
