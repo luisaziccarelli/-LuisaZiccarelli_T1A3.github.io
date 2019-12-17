@@ -57,6 +57,7 @@
 .container {
   display: flex;
   align-content: flex-start;
+  padding: 100px;
 }
 
 .centered-heading {
@@ -66,18 +67,14 @@
 }
 
 .intro-heading {
+  display: inline-table;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
   line-height: 32px;
   background-color: #fff;
-  display: -webkit-inline-flex;
   margin-left: 30px;
 }
-.intro-heading .animation {
-  margin-top: 400px;
-  background: green;
-}
-.intro-heading .animation .panda {
+.intro-heading .panda {
   top: 40%;
   left: 43%;
   height: 120px;
@@ -86,7 +83,7 @@
   border: 5px solid black;
   border-radius: 30%;
 }
-.intro-heading .animation .face {
+.intro-heading .face {
   position: relative;
   background-color: white;
   border: 5px solid black;
@@ -96,41 +93,41 @@
   bottom: 30px;
   right: 20px;
 }
-.intro-heading .animation .ear-l, .intro-heading .animation .ear-r {
+.intro-heading .ear-l, .intro-heading .ear-r {
   position: relative;
   background-color: black;
   height: 25px;
   width: 40px;
   border-radius: 0px 0px 40px 40px;
 }
-.intro-heading .animation .ear-l {
+.intro-heading .ear-l {
   transform: rotate(145deg);
   bottom: 13px;
   right: 8px;
 }
-.intro-heading .animation .ear-r {
+.intro-heading .ear-r {
   transform: rotate(-145deg);
   left: 78px;
   bottom: 38px;
 }
-.intro-heading .animation .eye-l, .intro-heading .animation .eye-r {
+.intro-heading .eye-l, .intro-heading .eye-r {
   position: relative;
   background-color: black;
   width: 28px;
   height: 33px;
   border-radius: 50%;
 }
-.intro-heading .animation .eye-l {
+.intro-heading .eye-l {
   bottom: 30px;
   left: 10px;
   transform: rotate(25deg);
 }
-.intro-heading .animation .eye-r {
+.intro-heading .eye-r {
   bottom: 63px;
   left: 72px;
   transform: rotate(-25deg);
 }
-.intro-heading .animation .eyeball {
+.intro-heading .eyeball {
   position: relative;
   top: 8px;
   left: 7px;
@@ -139,7 +136,7 @@
   border-radius: 50%;
   background-color: white;
 }
-.intro-heading .animation .nose {
+.intro-heading .nose {
   position: relative;
   height: 8px;
   width: 15px;
@@ -148,14 +145,14 @@
   bottom: 65px;
   left: 48px;
 }
-.intro-heading .animation .hand-l, .intro-heading .animation .hand-r {
+.intro-heading .hand-l, .intro-heading .hand-r {
   position: relative;
   width: 25px;
   height: 43px;
   background-color: black;
   border-radius: 30px;
 }
-.intro-heading .animation .hand-l {
+.intro-heading .hand-l {
   transform: rotate(90deg);
   bottom: 28px;
   left: 1px;
@@ -167,27 +164,27 @@
     transform: rotate(120deg);
   }
 }
-.intro-heading .animation .hand-r {
+.intro-heading .hand-r {
   transform: rotate(-90deg);
   bottom: 92px;
   left: 108px;
 }
-.intro-heading .animation .leg-l, .intro-heading .animation .leg-r {
+.intro-heading .leg-l, .intro-heading .leg-r {
   position: relative;
   background-color: black;
   width: 17px;
   height: 25px;
   border-radius: 0px 0px 30px 30px;
 }
-.intro-heading .animation .leg-l {
+.intro-heading .leg-l {
   bottom: 65px;
   left: 30px;
 }
-.intro-heading .animation .leg-r {
+.intro-heading .leg-r {
   bottom: 90px;
   left: 65px;
 }
-.intro-heading .animation .shadow {
+.intro-heading .shadow {
   position: relative;
   background-color: rgba(0, 0, 0, 0.2);
   height: 30px;

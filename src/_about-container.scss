@@ -2,6 +2,7 @@
 .container {
   display: flex;
   align-content: flex-start;
+  padding: 100px;
 }
 
 .centered-heading {
@@ -12,17 +13,12 @@
 }
 
 .intro-heading {
+  display: inline-table;
   font-family: 'Lato', sans-serif;
   font-family: 'Ubuntu Mono', monospace;
   line-height: 32px;
   background-color: #fff;
-  display: -webkit-inline-flex;
   margin-left: 30px;
-
-  .animation {
-     margin-top: 400px;
-     background: green;
-
 
   .panda{
     top:40%;
@@ -160,7 +156,6 @@
     left:5px;
     }
   }
-}
 
 .about-container {
   display: flex;
@@ -177,7 +172,6 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu Mono', monospace;
    
-    
 
  .answer {
     text-indent: 100px;
