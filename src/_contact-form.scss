@@ -1,0 +1,27 @@
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+
+.centered-heading {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    
+}
+
+}
+
+.contact-form {
+    align-self: flex-end;
+    background: grey;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    line-height: 1;
+    text-indent: 10px;
+    padding: 50px;
+    width: auto;
+    height: auto;
+}
