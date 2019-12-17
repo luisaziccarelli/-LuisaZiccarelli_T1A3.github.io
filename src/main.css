@@ -12,20 +12,17 @@
   margin-left: 200px;
 }
 
-.bottom-heading {
-  margin-top: 20px;
-  font-family: "Lato", sans-serif;
-  font-family: "Ubuntu Mono", monospace;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .logo {
   height: 20px;
   width: auto;
   float: left;
   margin-top: 55px;
   margin-left: 20px;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .main-nav {
@@ -35,6 +32,7 @@
   margin-right: 20px;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
+  background-color: #bbb9b9;
 }
 
 .main-nav li {
@@ -71,7 +69,7 @@
   background: #9c9898;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
-  align-content: flex-start;
+  float: right;
 }
 .about-container p .answer {
   text-indent: 100px;
@@ -86,19 +84,24 @@
   margin-bottom: 20px;
 }
 
+.intro-heading {
+  margin-top: 20px;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .latest-news-area {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  justify-content: center;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
 }
-.latest-news-area section {
-  text-align: center;
+.latest-news-area .container {
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
-  margin-top: 80px;
-  margin-left: 200px;
 }
 
 .latest-news-wrap {
@@ -177,14 +180,53 @@ p {
   height: auto;
 }
 
+#footer {
+  background-color: cadetblue;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+}
+#footer #copywrite, #footer #social-media-links {
+  float: left;
+  font-size: 1em;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  color: #fff;
+  margin-top: 55px;
+  margin-right: 20px;
+}
+#footer #copywrite #social-media-links, #footer #social-media-links #social-media-links {
+  float: right;
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-body {
+html, body {
+  height: 100%;
   background-color: #fcd8df;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 100px;
+  background-color: darkgray;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: darksalmon;
 }
 
 .centered-heading {
@@ -192,6 +234,7 @@ body {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
