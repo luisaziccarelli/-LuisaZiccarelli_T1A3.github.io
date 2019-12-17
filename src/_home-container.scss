@@ -1,12 +1,7 @@
-.home-container, img {
+.home-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-
-    img {
-        margin-top: 10px;
-        margin-left: 200px;
-    }
+    justify-content: center;  
 }
 
 .centered-heading {

@@ -1,11 +1,7 @@
-.home-container, img {
+.home-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-.home-container img, img img {
-  margin-top: 10px;
-  margin-left: 200px;
 }
 
 .centered-heading {
@@ -65,16 +61,17 @@
 .about-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .about-container p {
   margin-top: auto;
-  font-weight: 100;
-  line-height: 100%;
+  line-height: 32px;
+  margin-bottom: 30px;
+  font-weight: lighter;
   color: #fff;
   background: #9c9898;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
+  align-content: flex-start;
 }
 .about-container p .answer {
   text-indent: 100px;
@@ -89,10 +86,6 @@
   margin-bottom: 20px;
 }
 
-.container {
-  margin-top: 80px;
-}
-
 .latest-news-area {
   display: flex;
   flex-wrap: nowrap;
@@ -100,9 +93,18 @@
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
 }
+.latest-news-area section {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  margin-top: 80px;
+  margin-left: 200px;
+}
 
 .latest-news-wrap {
   box-shadow: 0px 3px 10px rgba 0, 0, 0, 0.1;
+  padding-top: 130px;
+  padding-left: 20px;
 }
 
 .news-img {
@@ -172,7 +174,8 @@ p {
   font-family: "Ubuntu Mono", monospace;
   line-height: 1;
   text-indent: 10px;
-  margin-top: 250px;
+  margin-top: 150px;
+  justify-content: flex-end;
   width: 400px;
   height: 200px;
 }
