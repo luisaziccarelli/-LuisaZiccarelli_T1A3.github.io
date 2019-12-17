@@ -68,11 +68,12 @@
 
 .intro-heading {
   display: inline-table;
+  align-items: center;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
   line-height: 32px;
   background-color: #fff;
-  margin-left: 30px;
+  margin-left: 300px;
 }
 .intro-heading .panda {
   top: 40%;
