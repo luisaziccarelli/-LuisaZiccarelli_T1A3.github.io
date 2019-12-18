@@ -1,10 +1,8 @@
 
-
 .centered-heading {
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu Mono', monospace;
     text-align: center;
-    
 }
 
 .contact-container {
@@ -17,13 +15,54 @@
 .social-media-container {
     display: inline-table;
     align-items: center;
+    text-align: center;
     font-family: "Lato", sans-serif;
     font-family: "Ubuntu Mono", monospace;
     line-height: 32px;
     background-color: #fff;
+
+}
+
+.social-media-icons {
+    position: relative;
+    margin-top: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 
+.social-media-icons a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+
+.social-media-icons a:hover {
+    background: #0984e3;
+    
+}
+
+.social-media-icons a i{
+    transition: 0.4s all;
+    
+}
+
+.social-media-icons a:hover > i {
+    transform: scale(1.6) rotate(25deg);
+}
+    
+
+
+   
 .contact-form {
     background: blue;
     font-family: "Lato", sans-serif;
@@ -35,7 +74,7 @@
     height: 400px;
     display: grid;
     flex-wrap: wrap;
-
+    
     .message {
         background-color: green;
         text-align: left;
