@@ -392,7 +392,6 @@ a:hover {
 
 html, body {
   height: 100%;
-  background-color: #f0dbdf;
 }
 
 #container {
@@ -402,7 +401,6 @@ html, body {
 #main {
   overflow: auto;
   padding-bottom: 100px;
-  background-color: #f0dbdf;
 }
 
 header {
@@ -416,7 +414,7 @@ header {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
-  padding: 30px;
+  padding: 40px;
   color: #1289A7;
 }
 
