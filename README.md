@@ -20,6 +20,14 @@ My portfolio main features include:
 
 ## Screenshots
 
+![Screenshot_Home](/img/Homepage_screenshot.jpeg)
+
+![Screenshot_About](/img/About_screenshot.jpeg)
+
+![Screenshot_Blog](/img/Blog_screenshot.jpeg)
+
+![Screenshot_Contact](/img/contact_screenshots.jpeg)
+
 
 ## Target audience
 This portfolio is targeted to fellow developers, potential employers, and those new to the dev world who are looking to network and collaborate. 
