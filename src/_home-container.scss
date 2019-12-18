@@ -1,13 +1,9 @@
 
-.home-container {
+
+.home-container,  img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #fff;
 }
 
-.centered-heading {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;
-   
-}

@@ -6,6 +6,15 @@
 @import "contact-form";
 @import "footer";
 
+/*color palette*/
+$background-color: rgb(240, 219, 223);
+$header: #f8c291;
+$dark-salmon: #e77f67;
+$centered-heading-color: #1289A7; 
+$lighter-blue:#12CBC4;
+$dark-turquoise: #006266;
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +24,7 @@
 
 html, body {
     height: 100%;
-    background-color: rgb(252, 216, 223);
+    background-color: $background-color;
 
 }
 
@@ -26,7 +35,7 @@ html, body {
 #main {
     overflow: auto;
     padding-bottom: 100px;
-    background-color: darkgray;
+    background-color: rgb(240, 219, 223)
 }
 
 header {
@@ -39,7 +48,10 @@ header {
 .centered-heading {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;     
+    font-family: 'Ubuntu Mono', monospace; 
+    padding: 30px;
+    color: $centered-heading-color;
+
 
 }
 
