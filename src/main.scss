@@ -9,8 +9,8 @@
 
 /*color palette*/
 $background-color: rgb(240, 219, 223);
-$header: #f8c291;
-$dark-salmon: #e77f67;
+$header: darksalmon;
+$darkersalmon: #e77f67;
 $centered-heading-color: #1289A7; 
 $lighter-blue:#12CBC4;
 $dark-turquoise: #006266;
@@ -41,7 +41,7 @@ header {
     width: 100%;
     height: 80px;
     display: block;
-    background-color: darksalmon;
+    background-color: $header;
 }
 
 .centered-heading {
