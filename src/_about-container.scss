@@ -1,4 +1,8 @@
 
+.about-box {
+  background-color: rgb(240, 219, 223);
+}
+
 .container {
   display: flex;
   align-content: flex-start;
@@ -11,10 +15,12 @@
   font-family: 'Lato', sans-serif;
   font-family: 'Ubuntu Mono', monospace;
   line-height: 32px;
-  background-color: #fff;
-  margin-left: 300px;
+  font-weight: 100;
+  margin-left: 100px;
+  margin-right: 50px;
 
   .panda{
+    margin: 60px;
     top:40%;
     left:43%;
     height: 120px;
@@ -156,19 +162,23 @@
   flex-wrap: wrap;
   display: inline-flex;
   align-self: flex-end;
+  margin-left: 100px;
+  text-align: center;
 
   
   p {
     line-height: 32px;   
     font-weight: lighter;  
     color: #fff;
-    background: rgb(156, 152, 152);
+    background-color: rgb(206, 202, 202);
+    border-radius: 10%;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu Mono', monospace;
    
 
  .answer {
     text-indent: 100px;
+    color: black;
     }
   }
 }

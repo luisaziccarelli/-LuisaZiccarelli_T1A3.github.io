@@ -51,6 +51,10 @@
   border-bottom: 2px solid cadetblue;
 }
 
+.about-box {
+  background-color: #f0dbdf;
+}
+
 .container {
   display: flex;
   align-content: flex-start;
@@ -63,10 +67,12 @@
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
   line-height: 32px;
-  background-color: #fff;
-  margin-left: 300px;
+  font-weight: 100;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 .intro-heading .panda {
+  margin: 60px;
   top: 40%;
   left: 43%;
   height: 120px;
@@ -191,17 +197,21 @@
   flex-wrap: wrap;
   display: inline-flex;
   align-self: flex-end;
+  margin-left: 100px;
+  text-align: center;
 }
 .about-container p {
   line-height: 32px;
   font-weight: lighter;
   color: #fff;
-  background: #9c9898;
+  background-color: #cecaca;
+  border-radius: 10%;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
 }
 .about-container p .answer {
   text-indent: 100px;
+  color: black;
 }
 
 .col-sm-12 {
