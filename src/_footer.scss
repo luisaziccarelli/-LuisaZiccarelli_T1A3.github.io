@@ -1,4 +1,4 @@
-#footer {
+.footer {
     background-color: cadetblue;
     position: relative;
     height: 100px;
@@ -7,16 +7,15 @@
     
 #copywrite, #social-media-links {
     float: left;
-    font-size: 1em;
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu Mono', monospace;
     color: #fff;
-    margin-top: 55px;
+    font-size: small;
+    margin-top: 40px;
     margin-right: 20px;
     
-    
     #social-media-links {
-    float:right;
+    float: right;
         }
     }
 }
