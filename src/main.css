@@ -328,6 +328,7 @@ a:hover {
   font-family: "Ubuntu Mono", monospace;
   line-height: 32px;
   background-color: #fff;
+  margin-right: 100px;
 }
 
 .social-media-icons {
@@ -375,6 +376,7 @@ a:hover {
   height: 400px;
   display: grid;
   flex-wrap: wrap;
+  margin-right: 60px;
 }
 .contact-form .message {
   background-color: green;
