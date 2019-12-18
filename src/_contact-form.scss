@@ -1,9 +1,4 @@
 
-.contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px;
 
 .centered-heading {
     font-family: 'Lato', sans-serif;
@@ -12,16 +7,36 @@
     
 }
 
+.contact-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+}
+
+.social-media-container {
+    display: inline-table;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-family: "Ubuntu Mono", monospace;
+    line-height: 32px;
+    background-color: #fff;
+    
 }
 
 .contact-form {
-    align-self: flex-end;
-    background: grey;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;
+    background: blue;
+    font-family: "Lato", sans-serif;
+    font-family: "Ubuntu Mono", monospace;
     line-height: 1;
     text-indent: 10px;
-    padding: 50px;
-    width: auto;
-    height: auto;
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    flex-wrap: wrap;
+
+    .message {
+        background-color: green;
+        text-align: left;
+    }
 }
