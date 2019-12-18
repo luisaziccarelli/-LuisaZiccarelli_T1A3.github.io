@@ -304,6 +304,10 @@ a:hover {
   text-decoration: none;
 }
 
+.contact-box {
+  background-color: #f0dbdf;
+}
+
 .contact-container {
   display: flex;
   align-items: flex-start;
@@ -317,9 +321,10 @@ a:hover {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
+  font-size: x-large;
   line-height: 32px;
-  background-color: #fff;
-  margin-right: 100px;
+  margin-right: 150px;
+  font-weight: 100;
 }
 
 .social-media-icons {
@@ -357,20 +362,17 @@ a:hover {
 }
 
 .contact-form {
-  background: blue;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
   line-height: 1;
   text-indent: 10px;
-  padding: 30px;
   width: 400px;
   height: 400px;
   display: grid;
   flex-wrap: wrap;
-  margin-right: 60px;
+  margin-left: 100px;
 }
 .contact-form .message {
-  background-color: green;
   text-align: left;
 }
 
@@ -389,6 +391,7 @@ a:hover {
   font-size: small;
   margin-top: 40px;
   margin-right: 20px;
+  margin-left: 15px;
 }
 .footer #copywrite #social-media-links, .footer #social-media-links #social-media-links {
   float: right;

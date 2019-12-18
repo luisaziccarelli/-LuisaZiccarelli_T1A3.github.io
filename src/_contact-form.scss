@@ -1,4 +1,8 @@
 
+.contact-box {
+    background-color: rgb(240, 219, 223);
+}
+
 .contact-container {
         display: flex;
         align-items: flex-start;
@@ -12,10 +16,11 @@
     text-align: center;
     font-family: "Lato", sans-serif;
     font-family: "Ubuntu Mono", monospace;
+    font-size: x-large;
     line-height: 32px;
-    background-color: #fff;
-    margin-right: 100px;
-
+    margin-right: 150px;
+    font-weight: 100;
+   
 }
 
 .social-media-icons {
@@ -57,20 +62,17 @@
     
 
 .contact-form {
-    background: blue;
     font-family: "Lato", sans-serif;
     font-family: "Ubuntu Mono", monospace;
     line-height: 1;
     text-indent: 10px;
-    padding: 30px;
     width: 400px;
     height: 400px;
     display: grid;
     flex-wrap: wrap;
-    margin-right: 60px;
+    margin-left: 100px;
     
     .message {
-        background-color: green;
         text-align: left;
     }
 }
