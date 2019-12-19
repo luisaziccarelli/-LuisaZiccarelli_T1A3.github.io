@@ -54,3 +54,39 @@ header {
 
 }
 
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+@media screen and (min-width: 320px) {
+    #main {
+    width: 100%;
+    }
+}
+
+/* smartphones, Android phones, landscape iPhone */ 
+
+@media screen and (min-width: 480px) {
+    #main {
+        width: 100%;
+        }
+    }
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #container {
+        width: 100%;
+    }
+    .footer {
+        margin-top: 100px;
+        }
+    }
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+    .footer {
+        margin-top: 100px;
+        }
+    }
