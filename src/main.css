@@ -5,68 +5,6 @@
   background-color: #fff;
 }
 
-/*image media queries*/
-@media (min-device-width: 320px) {
-  img[data-src-320px] {
-    content: attr(data-src-320px, url);
-  }
-}
-@media (min-device-width: 480px) {
-  img[data-src-480px] {
-    content: attr(data-src-480px, url);
-  }
-}
-@media (min-device-width: 768px) {
-  img[data-src-768px] {
-    content: attr(data-src-768px, url);
-  }
-}
-@media (min-device-width: 1060px) {
-  img[data-src-1060px] {
-    content: attr(data-src-1060px, url);
-  }
-}
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-@media screen and (min-width: 320px) {
-  #main {
-    width: 20%;
-    overflow: inherit;
-    padding: 0;
-  }
-}
-/* smartphones, Android phones, landscape iPhone */
-@media screen and (min-width: 480px) {
-  #main {
-    width: 30%;
-    overflow: inherit;
-    padding: 0;
-  }
-}
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary {
-    width: 67%;
-    margin-top: 0;
-  }
-
-  #secondary {
-    width: 30%;
-    margin-left: 3%;
-  }
-}
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary {
-    width: 100%;
-    margin-top: 0;
-  }
-
-  #secondary {
-    width: 100%;
-    margin-top: 0;
-    border: none;
-  }
-}
 .logo {
   height: 40px;
   width: auto;
@@ -133,7 +71,8 @@
   margin-left: 100px;
   margin-right: 50px;
 }
-.intro-heading .panda {
+
+.animation .panda {
   margin: 60px;
   top: 40%;
   left: 43%;
@@ -143,7 +82,8 @@
   border: 5px solid black;
   border-radius: 30%;
 }
-.intro-heading .face {
+
+.face {
   position: relative;
   background-color: white;
   border: 5px solid black;
@@ -153,41 +93,48 @@
   bottom: 30px;
   right: 20px;
 }
-.intro-heading .ear-l, .intro-heading .ear-r {
+
+.ear-l, .ear-r {
   position: relative;
   background-color: black;
   height: 25px;
   width: 40px;
   border-radius: 0px 0px 40px 40px;
 }
-.intro-heading .ear-l {
+
+.ear-l {
   transform: rotate(145deg);
   bottom: 13px;
   right: 8px;
 }
-.intro-heading .ear-r {
+
+.ear-r {
   transform: rotate(-145deg);
   left: 78px;
   bottom: 38px;
 }
-.intro-heading .eye-l, .intro-heading .eye-r {
+
+.eye-l, .eye-r {
   position: relative;
   background-color: black;
   width: 28px;
   height: 33px;
   border-radius: 50%;
 }
-.intro-heading .eye-l {
+
+.eye-l {
   bottom: 30px;
   left: 10px;
   transform: rotate(25deg);
 }
-.intro-heading .eye-r {
+
+.eye-r {
   bottom: 63px;
   left: 72px;
   transform: rotate(-25deg);
 }
-.intro-heading .eyeball {
+
+.eyeball {
   position: relative;
   top: 8px;
   left: 7px;
@@ -196,7 +143,8 @@
   border-radius: 50%;
   background-color: white;
 }
-.intro-heading .nose {
+
+.nose {
   position: relative;
   height: 8px;
   width: 15px;
@@ -205,46 +153,53 @@
   bottom: 65px;
   left: 48px;
 }
-.intro-heading .hand-l, .intro-heading .hand-r {
+
+.hand-l, .hand-r {
   position: relative;
   width: 25px;
   height: 43px;
   background-color: black;
   border-radius: 30px;
 }
-.intro-heading .hand-l {
+
+.hand-l {
   transform: rotate(90deg);
   bottom: 28px;
   left: 1px;
   animation: wave 1.5s infinite;
   transform-origin: top;
 }
+
 @keyframes wave {
   50% {
     transform: rotate(120deg);
   }
 }
-.intro-heading .hand-r {
+.hand-r {
   transform: rotate(-90deg);
   bottom: 92px;
   left: 108px;
 }
-.intro-heading .leg-l, .intro-heading .leg-r {
+
+.leg-l, .leg-r {
   position: relative;
   background-color: black;
   width: 17px;
   height: 25px;
   border-radius: 0px 0px 30px 30px;
 }
-.intro-heading .leg-l {
+
+.leg-l {
   bottom: 65px;
   left: 30px;
 }
-.intro-heading .leg-r {
+
+.leg-r {
   bottom: 90px;
   left: 65px;
 }
-.intro-heading .shadow {
+
+.shadow {
   position: relative;
   background-color: rgba(0, 0, 0, 0.2);
   height: 30px;
@@ -257,10 +212,10 @@
 .about-container {
   display: flex;
   flex-wrap: wrap;
-  display: inline-flex;
-  align-self: flex-end;
   margin-left: 100px;
   text-align: center;
+  justify-content: flex-end;
+  align-content: flex-start;
 }
 .about-container p {
   line-height: 32px;
@@ -534,6 +489,12 @@ header {
 
   .footer {
     margin-top: 100px;
+  }
+}
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 1025px) {
+  #container {
+    width: 100%;
   }
 }
 
