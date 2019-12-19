@@ -12,12 +12,14 @@ My portfolio website is meant to be a professional and creative resource for oth
 ## Functionality and features
 My portfolio main features include:
     - **Main page**: this page features an illustration and an intro to my website and a welcome message. A simple desing was chosen given there were a few other elements such as color, fonts, and links drawing the user's attention.   
-    - **About page**: this section includes information about myself personally and professionally. I included an animation of a panda I created using css. In this page the user is able to download a pdf version of my resume. 
+    - **About page**: this section includes information about myself personally and professionally. In this page the user is able to download a pdf version of my resume. I included an animation of a panda created using css. However this is not my creation and copyrights belong to Coding Artist (https://www.instagram.com/coding.artist).
+    Here is the URL to the youtube tutorial: https://www.youtube.com/watch?v=gA3Y_kKkrD4
     - **Blog page**: in this section of my website there are a few different blogs I have written since I started my coding journey including: how I made a career change from psychology to coding, my top 5 tips on thriving and staying motivated during your bootcamp experience, and my experience building my first terminal app in ruby. 
     - **Contact page**: in this section there is a contact form that can be used to get in touch with me to provide any feedback or express interest in collaborating/working with me. Also in this section there are links to my social media accounts: linkedin, twitter, and github.
 
-## Sitemaps
+## Sitemap
 
+![Sitemap](/resources/Sitemaps_T1A3.jpg)
 
 ## Screenshots
 
