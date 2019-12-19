@@ -3,7 +3,7 @@
 
 This project is the third assingment of the Gentech Bootcamp @CoderAcademy and it consists in building my very own first website. This website is a portfolio website, aimed to share information about myself, my journey as new developer, projects I have been working on, and my interests to potential employers and other devs. Here is a link to my porftolio website: 
 
-- URL: 
+- URL: https://luisaziccarelli.github.io/-LuisaZiccarelli_T1A3.github.io/.
 - Github repo: git@github.com:luisaziccarelli/-LuisaZiccarelli_T1A3.github.io.git
 
 ## My Portfolio Website
