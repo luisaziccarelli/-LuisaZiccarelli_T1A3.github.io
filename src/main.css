@@ -308,18 +308,27 @@ a:hover {
 
 .contact-box {
   background-color: #f0dbdf;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-content: flex-start;
+  padding: 100px;
 }
 
 .contact-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 50px;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+  line-height: 32px;
+  font-weight: 100;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 
 .social-media-container {
-  display: inline-table;
-  align-items: center;
   text-align: center;
   font-family: "Lato", sans-serif;
   font-family: "Ubuntu Mono", monospace;
@@ -327,8 +336,7 @@ a:hover {
   margin-right: 150px;
   font-weight: 100;
 }
-
-.social-media p {
+.social-media-container p {
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -339,7 +347,6 @@ a:hover {
 }
 
 .social-media-icons {
-  position: relative;
   margin-top: 90px;
   top: 50%;
   left: 50%;
@@ -377,19 +384,19 @@ a:hover {
   font-family: "Ubuntu Mono", monospace;
   line-height: 1;
   text-indent: 10px;
+  text-align: center;
   width: 400px;
   height: 400px;
-  display: grid;
+  display: inline-block;
   flex-wrap: wrap;
-  margin-left: 100px;
   background-color: #cecaca;
-  border-radius: 10%;
+  border-radius: 15%;
 }
-
-.message {
-  text-align: justify;
+.contact-form .message {
+  text-align: center;
   font-weight: bold;
   font-weight: 100;
+  line-height: 15px;
 }
 
 .footer {
